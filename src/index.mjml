@@ -3,9 +3,9 @@
         <mj-title>JPO du 13 avril 2024 Ecosup Santé</mj-title>
             <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap"/>
         <mj-attributes>
-            <mj-class name="d-titre" font-size="38px" line-height="40px" font-weight="700" color="#1F3C90"/>
-            <mj-class name="d-sous-titre" font-size="16px" line-height="20px" font-weight="700" color="#787FBD"/>
-            <mj-class name="d-date" font-size="20px" line-height="24px" font-weight="700" color="#1F3C90"/>
+            <mj-class name="d-titre" font-size="38px" line-height="40px" font-weight="700" color="#1E71B8"/>
+            <mj-class name="d-sous-titre" font-size="16px" line-height="20px" font-weight="700" color="#31A7E0"/>
+            <mj-class name="d-date" font-size="20px" line-height="24px" font-weight="700" color="#1E71B8"/>
             <mj-class name="d-text" font-size="16px" line-height="20px" color="#14141f"/>
             <mj-class name="d-lieu" font-size="16px" line-height="20px" color="#626262" />
             <mj-class name="d-adress" font-size="13px" line-height="15px" color="#FFFFFF"/>
@@ -39,7 +39,7 @@
         </mj-section>
         <mj-section padding="0">
             <mj-column width="600px">
-                <mj-image padding="0" href="https://ecosup-tourisme.fr" src="src/img/SM13042024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 mars 2024"/>
+                <mj-image padding="0" href="https://ecosup-sante.fr/secretaire-medicale-2" src="src/img/SM13042024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 13 avril 2024"/>
                </mj-column>
         </mj-section>
     <!--Section Titre-->
@@ -57,10 +57,10 @@
         <mj-section background-color="#ffffff" padding="0">
             <mj-column width="530px">
                 <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">
-                <strong>{{ contact.PRENOM }}</strong>, les métiers du secrétariat médical vous intéressent et vous souhaitez entreprendre une formation initiale ou en alternance ?
+                <strong>{{ contact.PRENOM }}</strong>, les métiers du secrétariat médical vous intéressent et vous souhaitez entreprendre une <strong>formation initiale ou en alternance</strong> ?
                 </mj-text>
                 <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">
-                ECOSUP Santé vous ouvre ses portes ce 
+                <strong>ECOSUP Santé</strong> vous ouvre ses portes ce 
                 </mj-text>
                  <mj-text align="center" mj-class="d-date">
                 Samedi 13 avril de 9h30 à 13h.
@@ -76,7 +76,7 @@
         <mj-section background-color="#ffffff">
             <mj-group>
             <mj-column width="50%" padding="8px">
-                <mj-image align="right" padding="0" src="src/img/Sandrine.jpg"  width="110px" alt="" />
+                <mj-image align="right" padding="0" src="src/img/Sandrine.jpg"  width="110px" alt="Sandrine Coudron, responsable pédagogique Secrétaire médical(e)" />
             </mj-column>
             <mj-column width="50%" padding="8px">
                 <mj-text padding="0" mj-class="d-text">
@@ -97,36 +97,36 @@
  <!--diviser-->
                 <mj-section background-color="#ffffff" padding="0">    
                 <mj-column>
-                    <mj-divider width="50%" border-width="2px" border-style="solid" border-color="#787FBD" />
+                    <mj-divider width="50%" border-width="2px" border-style="solid" border-color="#1E71B8" />
                 </mj-column>
                 </mj-section>
     <!--Comment s'y rendre-->
                 <mj-section background-color="#ffffff">
                 <mj-column width="530px">
-                <mj-text font-size="18px" font-weight="700" color="#787FBD" mj-class="d-lieu"> 
+                <mj-text font-size="18px" font-weight="700" color="#31A7E0" mj-class="d-lieu"> 
                         Comment s'y rendre ?
                 </mj-text>
                 <mj-text padding-top="0" padding-bottom="0" mj-class="d-lieu">
-                        <b style="color:#1F3C90">Accès Métro : </b>Ligne 2 - station Tourcoing Centre.
+                        <b style="color:#1E71B8">Accès Métro : </b>Ligne 2 - station Tourcoing Centre.
                     </mj-text>
                     <mj-text padding-top="0" padding-bottom="0" mj-class="d-lieu">
-                        <b style="color:#1F3C90">Accès Tramway :</b> Terminus Tourcoing Centre.
+                        <b style="color:#1E71B8">Accès Tramway :</b> Terminus Tourcoing Centre.
                     </mj-text>
                     <mj-text padding-top="0" padding-bottom="0" mj-class="d-lieu">
-                        <b style="color:#1F3C90">Accès Bus :</b> Gare routière de Tourcoing.
+                        <b style="color:#1E71B8">Accès Bus :</b> Gare routière de Tourcoing.
                     </mj-text>
                     <mj-text padding-top="0" padding-bottom="0" mj-class="d-lieu">
-                        <b style="color:#1F3C90">Accès Train :</b> Gare de Tourcoing puis station de Métro Tourcoing Centre
+                        <b style="color:#1E71B8">Accès Train :</b> Gare de Tourcoing puis station de Métro Tourcoing Centre
                     </mj-text>
                     <mj-text padding-top="0" padding-bottom="0" mj-class="d-lieu">
-                        <b style="color:#1F3C90">Accès Voiture :</b> Tourcoing centre.
+                        <b style="color:#1E71B8">Accès Voiture :</b> Tourcoing centre.
                     </mj-text>
                     <mj-spacer height="10px"/>
             </mj-column>
         </mj-section>
 <!--Footer-->
 <!--Adresse-->
-        <mj-section background-color="#1F3C90">
+        <mj-section background-color="#31A7E0">
             <mj-column width="265px">
                 <mj-text padding-top="0" padding-bottom="0" font-size="16px" font-weight="900" color="#FFFFFF" css-class="m-footer1">
                    <div class="m-footer">ECOSUP CAMPUS</div>
@@ -147,8 +147,8 @@
     <!--Réseaux sociaux-->
             <mj-column width="265px">
                 <mj-social padding-top="0" padding-bottom="0" align="right" icon-size="35px" mode="horizontal" css-class="m-footer2">
-                    <mj-social-element background-color="#20274F" name="facebook" href="https://www.facebook.com/EcosupCamp"></mj-social-element>
-                    <mj-social-element background-color="#20274F" name="instagram" href="https://www.instagram.com/ecosup.campus/"></mj-social-element>
+                    <mj-social-element background-color="#1E71B8" name="facebook" href="https://www.facebook.com/EcosupCamp"></mj-social-element>
+                    <mj-social-element background-color="#1E71B8" name="instagram" href="https://www.instagram.com/ecosup.campus/"></mj-social-element>
                 </mj-social>
             </mj-column>
         </mj-section>
